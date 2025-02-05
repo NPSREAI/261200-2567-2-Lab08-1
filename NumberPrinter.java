@@ -21,5 +21,5 @@ class NumberPrinter implements Runnable {
     }
 }
 
-// ไม่ใส่ sleep เหมือนไม่ใส่ delay
-// ใส่ sleep เหมือนใส่ delay
+// ไม่ใส่ sleep เหมือนไม่ใส่ delay ข้อมูลจะ run ได้เร็ว การเรียงตัวขึ้นอยู่กับ cpu  การกระจายตัวก็จะน้อย
+// ใส่ sleep เหมือนใส่ delay ข้อมูลจะกระจายตัวมากขึ้นตามช่วงในการหน่วง
