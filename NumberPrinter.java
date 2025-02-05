@@ -20,3 +20,5 @@ class NumberPrinter implements Runnable {
         }
     }
 }
+
+// ถ้าไม่ใส่ sleep เหมือนไม่ใส่ delay
